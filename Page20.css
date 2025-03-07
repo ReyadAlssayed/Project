@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+input{
+    background-color:white;
+    padding:10px 140px 10px 5px;
+    border-radius:7px;
+    -webkit-border-radius:7px;
+    -moz-border-radius:7px;
+    -ms-border-radius:7px;
+    -o-border-radius:7px;
+    margin-left: 600px;
+}
+
+::placeholder{
+    color:black;
+    font-family: Copperplate, Papyrus, fantasy;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-weight: bold;
+}
+
+.button{
+    margin-left: 685px;
+    color:black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-color: rgb(250, 250, 250);
+    padding:10px 50px 10px 50px;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-color: black;
+}
+
+.button:hover{
+    background-color: rgb(198, 145, 22);
+}
+
+
+.label1{
+    color:black;
+    font-family: Copperplate, Papyrus, fantasy;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-weight: bold;
+    margin-left: 650px;
+}
+
+
+.country{
+    color:black;
+    border-color: black;
+    background-color: rgb(198, 145, 22);
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-color: rgb(250, 250, 250);
+    padding:8px 125px 8px 40px;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-left: 600px;
+    margin-top: 15px;
+}
+
+option:hover{
+
+    background-color: #ffffff;
+}
+
+.span1 { background-color: red; margin-left:80px ; cursor: pointer;}
+.span2 { background-color: blue;  margin-left:80px ; cursor: pointer;}
+.span3 { background-color: green;  margin-left:80px ; cursor: pointer; }
+.span4 { background-color: rgb(202, 125, 3);  margin-left:80px ; cursor: pointer;}
+.span5 { background-color: rgb(40, 133, 170);  margin-left:80px ; cursor: pointer; }
+.span6 { background-color: rgb(94, 0, 128); margin-left:80px ; cursor: pointer;}
+.span7 { background-color: yellow;  margin-left:80px ; cursor: pointer;}
+.span8 { background-color: orange;  margin-left:80px ; cursor: pointer;}
+.span9 { background-color: purple;  margin-left:80px ; cursor: pointer;}
+.span10 { background-color: pink;  margin-left:80px ; cursor: pointer;}
+
+
+.div1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(194, 194, 187);
+    width: 95%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.div1 span {
+    padding: 10px;
+    width: 2%;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
